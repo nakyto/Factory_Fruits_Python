@@ -15,4 +15,4 @@ class Apple(Fruit):
         self.say()
 
     def say(self):
-        print("I am a "+ self.name + "not the computer :)")
+        print("I am a "+ self.name + " not the computer :)")

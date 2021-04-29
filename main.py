@@ -5,6 +5,8 @@ from model import apple
 from model import lemon
 from model import rasbery
 
+from factory import factory_fruit
+
 def print_hi(name):
     print(f'Hi, {name}')
 
@@ -24,3 +26,10 @@ if __name__ == '__main__':
     F4 = rasbery.Rasbery()
     F4.say()
     print("-------")
+    print("-- END --")
+
+    print("-- FACTORYYY --")
+    f = factory_fruit.FruitFactory
+    f1 = f.creat_fruts(f, name="Apple")
+    f1.say()
+    print("-- END factory --")
